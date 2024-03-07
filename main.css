@@ -1,0 +1,60 @@
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.blank {
+    flex: 1;
+}
+
+#left {
+    background-color: aquamarine;
+    width: 250px;
+}
+
+#right {
+    background-color: bisque;
+    flex: 1;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+#avt1{
+width: 180px;
+margin-top: 20px;
+border-radius: 50%;
+}
+#left
+{
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: center;
+}
+#group-text{
+    width: 86%;
+}
+.text{
+    margin-top: 7px;
+    font-weight: 600;
+}
+#blank{
+    flex: 1;
+}
+#Logout{
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.margin-top{
+    margin-top: 10px;
+    padding: 0 20px;
+}
